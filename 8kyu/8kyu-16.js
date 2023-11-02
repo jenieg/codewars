@@ -13,3 +13,10 @@ function squareSum(numbers){
         return acc + c;
     }, 0)
 }
+
+//from comments
+function squareSum(numbers){
+    return numbers.reduce(function(sum, n){
+        return (n*n) + sum;
+    }, 0)
+}
