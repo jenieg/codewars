@@ -8,7 +8,6 @@ function squareSum(numbers){
         squareArr.push(result)
     });
 
-    
     return squareArr.reduce(function (acc, c) {
         return acc + c;
     }, 0)
